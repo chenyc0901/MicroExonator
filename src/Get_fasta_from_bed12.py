@@ -52,7 +52,7 @@ def main(bed12):
 		
 	
         if strand=="-":
-            seq = seq.reverse_complement()
+            seq = Seq(str(seq)).reverse_complement()
 
         seq = str(seq).upper()
 

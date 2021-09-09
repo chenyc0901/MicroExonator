@@ -1,0 +1,9 @@
+Genome_fasta : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch38p13/GRCh38.p13.genome.fa
+Gene_anontation_bed12 : /media/sctech/Recur_GBM/MicroExonator/genome/UCSC_download/hg38_UCSC_v38.bed12
+GT_AG_U2_5 : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/PWM/Human/hg19_GT_AG_U2_5.good.matrix
+GT_AG_U2_3 : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/PWM/Human/hg19_GT_AG_U2_3.good.matrix
+conservation_bigwig : /media/sctech/Recur_GBM/MicroExonator/genome/hg38.phastCons100way.bw
+ME_len : 30
+working_directory : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/
+Optimize_hard_drive : T
+min_number_files_detected : 1
