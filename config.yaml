@@ -1,9 +1,20 @@
-Genome_fasta : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch38p13/GRCh38.p13.genome.fa
-Gene_anontation_bed12 : /media/sctech/Recur_GBM/MicroExonator/genome/UCSC_download/hg38_UCSC_v38.bed12
+Genome_fasta : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch37p13_gencode_v19/GRCh37.p13.genome.fa
+Gene_anontation_bed12 : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch37p13_gencode_v19/gencode.v19.chr_patch_hapl_scaff.annotation.bed12
 GT_AG_U2_5 : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/PWM/Human/hg19_GT_AG_U2_5.good.matrix
 GT_AG_U2_3 : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/PWM/Human/hg19_GT_AG_U2_3.good.matrix
-conservation_bigwig : /media/sctech/Recur_GBM/MicroExonator/genome/hg38.phastCons100way.bw
-ME_len : 30
+conservation_bigwig : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch37p13_gencode_v19/hg19.100way.phastCons.bw
+ME_len : 50
 working_directory : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/
 Optimize_hard_drive : T
-min_number_files_detected : 1
+min_number_files_detected : 3
+
+
+# Whippet
+downstream_only : T
+whippet_bin_folder : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/Whippet.jl/bin
+Gene_anontation_GTF : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch37p13_gencode_v19/gencode.v19.chr_patch_hapl_scaff.annotation.gtf
+julia : /home/sctech/anaconda3/envs/whippet.jl/bin/julia
+
+
+whippet_delta : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/whippet_delta.yaml
+
