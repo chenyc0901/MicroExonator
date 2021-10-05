@@ -68,9 +68,11 @@ rule download_fastq2:
         "download/{sample}.download.sh",
         "Round2/TOTAL.ME_centric.txt"
     params:
-        "FASTQ/{sample}.fastq"
+#fastq to fastq.gz
+        "FASTQ/{sample}.fastq.gz"
     output:
-        temp("FASTQ/round2/{sample}.fastq")
+#fastq to fastq.gz
+        temp("FASTQ/round2/{sample}.fastq.gz")
     priority: -10
     resources: 
         get_data = 1
