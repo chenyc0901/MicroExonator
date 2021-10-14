@@ -1,18 +1,20 @@
-Genome_fasta : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch37p13_gencode_v19/GRCh37.p13.genome.fa
-Gene_anontation_bed12 : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch37p13_gencode_v19/gencode.v19.chr_patch_hapl_scaff.annotation.bed12
+Genome_fasta : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch38p13/GRCh38.p13.genome.fa
+Gene_anontation_bed12 : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch38p13/gencode.v38.chr_patch_hapl_scaff.annotation.bed12
 GT_AG_U2_5 : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/MicroExonator_60nt/PWM/Human/hg19_GT_AG_U2_5.good.matrix
 GT_AG_U2_3 : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/MicroExonator_60nt/PWM/Human/hg19_GT_AG_U2_3.good.matrix
-conservation_bigwig : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch37p13_gencode_v19/hg19.100way.phastCons.bw
+conservation_bigwig : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch38p13/hg38.phastCons100way.bw
 ME_len : 60
-working_directory : /media/sctech/Recur_GBM/MicroExonator_GBM_TCGA/MicroExonator/
+working_directory : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/MicroExonator_60nt/
 Optimize_hard_drive : F
 min_number_files_detected : 3
-
+ME_DB : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch38p13/VastDB_hg38.bed12
 
 # Whippet
 #downstream_only : T
-#whippet_bin_folder : /media/sctech/Recur_GBM/MicroExonator_GBM_TCGA/MicroExonator/Whippet.jl/bin
-#Gene_anontation_GTF : /media/sctech/Recur_GBM/MicroExonator_GBM_2to4/genome/genome_ch37p13_gencode_v19/gencode.v19.chr_patch_hapl_scaff.annotation.gtf
+#whippet_bin_folder : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/Whippet.jl/bin
+#Gene_anontation_GTF : /media/sctech/Recur_GBM/MicroExonator/genome/genome_ch37p13_gencode_v19/gencode.v19.chr_patch_hapl_scaff.annotation.gtf
 #julia : /home/sctech/anaconda3/envs/whippet.jl/bin/julia
-#whippet_delta : /media/sctech/Recur_GBM/MicroExonator_GBM_TCGA/MicroExonator/whippet_delta.yaml
+
+
+#whippet_delta : /media/sctech/Recur_GBM/MicroExonator/MicroExonator/whippet_delta.yaml
 
